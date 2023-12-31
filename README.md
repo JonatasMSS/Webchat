@@ -17,6 +17,18 @@ Entender o funcionamento de Websockets e sua integração com Node e plataformas
 
 # 📕 Como utilizar
 
+## 📠 Configurando o Server
+Inicialmente, caso sinta o desejo de restringir o acesso, basta modificar o atributo `[*]` em `CORS` para o `IP` desejado.
+
+![code](https://github.com/JonatasMSS/Webchat/assets/74430293/b822ab40-ac57-4bdf-980a-9b5f65190999)
+
+### Configurando a porta
+Na ultima linha do código `server.js`, você encontrará o seguinte código. Assim, poderás definir a porta que o servidor estará.
+
+![code](https://github.com/JonatasMSS/Webchat/assets/74430293/6e88a3b0-11be-4230-8ca5-65d37adc02f7)
+
+*O server está instanciado na Localhost ou `IP de sua máquina`*
+
 ## 🖥️ Configurando o Client
 Primeiro de tudo, abra a pasta `Client` e crie um arquivo `.env.local` para configuração de variáveis de ambiente.
 Ao criar, crie duas variáveis:
